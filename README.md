@@ -1,7 +1,7 @@
 # bootstrap-5-tutorial
 # Tutorial for learning Bootstrap 5
 
-This repository contains a tutorial for learning Bootstrap 5. It provides step-by-step instructions and examples to help you understand and use the latest version of Bootstrap.
+Welcome to the tutorial for learning Bootstrap 5! This repository provides step-by-step instructions and examples to help you understand and use the latest version of Bootstrap.
 
 ## Getting Started
 
@@ -12,6 +12,8 @@ To get started with this tutorial, follow these steps:
 3. Start exploring the different components and features of Bootstrap 5.
 
 ## Features
+
+Explore the amazing features of Bootstrap 5:
 
 - Responsive design
 - CSS grid system
