@@ -1,22 +1,18 @@
 # Lecture Notes
 
-## Lecture 1: Introduction and Setup Bootstrap 5
+## Lecture 2: Bootstrap 5 Getting started
 
 ### Overview
-In this lecture, we will cover the basics of Bootstrap 5 and its key features. We will also discuss how to set up a Bootstrap project and explore the various components and utilities provided by Bootstrap.
+In this lecture, we will cover some basic features of Bootstrap 5 and explore how to change typography and colors. We will also discuss how Bootstrap differs with respect to the case of not using Bootstrap at all.
 
 ### Topics Covered
-- Introduction to Bootstrap
-- Setting up a Bootstrap project
-- Bootstrap grid system
-- Bootstrap components
-- Bootstrap utilities
+- Bootstrap 5 features
+- Differences between using Bootstrap 5 and not using Bootstrap at all
+- Changing typography and colors in Bootstrap 5
 
 ### Resources
-- [VSCode](https://code.visualstudio.com/) (Visual Studio Code)
-  - Provided that you have installed VSCode, add the "Live Server" extension within VSCode
-- [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- [Bootstrap Examples](https://getbootstrap.com/docs/5.0/examples/)
+- [Bootstrap Global Settings](https://getbootstrap.com/docs/5.0/content/typography/#global-settings)
+- [Bootstrap Headings](https://getbootstrap.com/docs/5.0/content/typography/#global-settings)
 
 ### Instructions
 
