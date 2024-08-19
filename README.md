@@ -10,7 +10,7 @@ To get started with this tutorial, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in your web browser.
 3. Start exploring the different components and features of Bootstrap 5.
-4. Watch the lecture series with code provided in the `lectures` folder.
+4. Watch the recorded lecture series with code provided in the `lectures` folder.
    
 ## Features
 
