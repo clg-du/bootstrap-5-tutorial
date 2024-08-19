@@ -18,11 +18,6 @@ In this lecture, we will cover the basics of Bootstrap 5 and its key features. W
 - [Bootstrap Examples](https://getbootstrap.com/docs/5.0/examples/)
 
 
-### Homework
-- Complete the exercises in the [Bootstrap Grid System](https://getbootstrap.com/docs/5.0/layout/grid/) section of the documentation.
-- Create a simple webpage using Bootstrap components and utilities.
-
-
 
 
 
