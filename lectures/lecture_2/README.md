@@ -24,6 +24,5 @@ In this lecture, we will cover some basic features of Bootstrap 5 and explore ho
 1. Use [CDN via jsDelivr links](https://getbootstrap.com/docs/5.0/getting-started/download/#cdn-via-jsdelivr) to add the CSS to your HTML head and the JavaScript to the bottom of the body. We will add bootstrap differently in later lectures to be able to customize it
 1. Now you are able to use Bootstrap classes and components in your file!
 
-
 ### Homework
 - Add exercises here...
