@@ -15,6 +15,7 @@ In this lecture, we will cover some basic features of Bootstrap 5 and explore ho
 - [Bootstrap Headings](https://getbootstrap.com/docs/5.0/content/typography/#headings)
 - [Bootstrap Display Headings](https://getbootstrap.com/docs/5.0/content/typography/#display-headings)
 - [Bootstrap Lead Tags](https://getbootstrap.com/docs/5.0/content/typography/#lead)
+- [Mozilla Horizontal Rule Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 
 ### Instructions
 
