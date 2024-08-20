@@ -12,11 +12,13 @@ In this lecture, we will cover the basics of Bootstrap 5 and its key features. W
 ### Resources
 - [VSCode](https://code.visualstudio.com/) (Visual Studio Code)
   - Provided that you have installed VSCode, add the "Live Server" extension within VSCode!
+- [Emmet Abbreviation in VSCode](https://code.visualstudio.com/docs/editor/emmet)
 - [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 - [Bootstrap Examples](https://getbootstrap.com/docs/5.0/examples/)
 - [CDN via jsDelivr links](https://getbootstrap.com/docs/5.0/getting-started/download/#cdn-via-jsdelivr)
 - [Bootstrap Native Font Stack](https://getbootstrap.com/docs/5.0/content/reboot/#native-font-stack)
 - [Web browser font defaults](https://granneman.com/webdev/coding/css/fonts-and-formatting/web-browser-font-defaults)
+- [Mozilla Horizontal Rule Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 
 ### Instructions
 1. Download VSCode and add the "Live Server" extension. Note that other text editors can of course also be used, but the content herein will primarily be presented using VSCode
