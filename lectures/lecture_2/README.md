@@ -12,17 +12,15 @@ In this lecture, we will cover some basic features of Bootstrap 5 and explore ho
 
 ### Resources
 - [Bootstrap Global Settings](https://getbootstrap.com/docs/5.0/content/typography/#global-settings)
-- [Bootstrap Headings](https://getbootstrap.com/docs/5.0/content/typography/#global-settings)
+- [Bootstrap Headings](https://getbootstrap.com/docs/5.0/content/typography/#headings)
+- [Bootstrap Display Headings](https://getbootstrap.com/docs/5.0/content/typography/#display-headings)
+- [Bootstrap Lead Tags](https://getbootstrap.com/docs/5.0/content/typography/#lead)
 
 ### Instructions
 
-1. Download VSCode and add the "Live Server" extension
-1. Create a new file named "index.html" in your directory
-1. Create a boilerplate HTML document by typing "doc" and hitting tab
-1. Revise the title in the HTML head
-1. Create a h1 title in the HTML body
-1. Use [CDN via jsDelivr links](https://getbootstrap.com/docs/5.0/getting-started/download/#cdn-via-jsdelivr) to add the CSS to your HTML head and the JavaScript to the bottom of the body. We will add bootstrap differently in later lectures to be able to customize it
-1. Now you are able to use Bootstrap classes and components in your file!
+1. Explore Bootstrap headings. See [this link](https://getbootstrap.com/docs/5.0/content/typography/#headings)
+1. Explore Bootstrap display headings. See [this link](https://getbootstrap.com/docs/5.0/content/typography/#display-headings)
+1. Explore Bootstrap lead tags. See [this link](https://getbootstrap.com/docs/5.0/content/typography/#lead)
 
 ### Homework
 - Add exercises here...
