@@ -1,4 +1,4 @@
-# Lecture 2: Typography and Colors
+# Lecture 4: Utility Classes
 2024-09-01
 
 <!--html_preserve--><details>
@@ -54,32 +54,29 @@
 
 ## Overview
 
-In this lecture, we will cover the basics of typography and colors in
-Bootstrap 5. We will explore the different typography utilities and color
-classes provided by Bootstrap. We will also discuss how to use these
-utilities to style text and backgrounds in your web pages.
+In this lecture, we will cover utility classes in Bootstrap 5. Utility classes
+are a set of predefined CSS classes that can be used to apply common styles
+and properties to elements in your web pages. These classes provide a quick
+and easy way to add styling without writing custom CSS code. We will explore
+some of the most commonly used utility classes in Bootstrap and learn how to
+leverage them to enhance the design and layout of your web pages.
 
 ## Topics Covered
 
-- Typography utilities in Bootstrap 5
-- Color classes in Bootstrap 5
-- Styling text and backgrounds
+- Text utilities
+- Spacing utilities
+- Sizing utilities
 
 ## Resources
 
-- [Bootstrap typography](https://getbootstrap.com/docs/5.0/content/typography/)
-- [Bootstrap headings](https://getbootstrap.com/docs/5.0/content/typography/#headings)
-- [Bootstrap display headings](https://getbootstrap.com/docs/5.0/content/typography/#display-headings)
-- [Bootstrap lead](https://getbootstrap.com/docs/5.0/content/typography/#lead)
-- [Bootstrap inline text elements](https://getbootstrap.com/docs/5.0/content/typography/#inline-text-elements)
-- [Bootstrap text colors](https://getbootstrap.com/docs/5.0/utilities/colors/#colors)
-- [Bootstrap background colors](https://getbootstrap.com/docs/5.0/utilities/colors/#background-color)
-- [Emmet Abbreviation Lorem Ipsum generation](https://docs.emmet.io/abbreviations/lorem-ipsum/)
+- [Text utilities](https://getbootstrap.com/docs/5.0/utilities/text/)
+- [Spacing utilities](https://getbootstrap.com/docs/5.0/utilities/spacing/)
+- [Sizing utilities](https://getbootstrap.com/docs/5.0/utilities/sizing/)
 
 ## Instructions
 
 1. Open the "index.html" file in the lecture directory.
-1. Browse through the different typography utilities and color classes.
+1. Explore the different utility classes and their applications.
 
 
 <!--html_preserve--><details>

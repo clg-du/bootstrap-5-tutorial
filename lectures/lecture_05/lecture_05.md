@@ -1,4 +1,4 @@
-# Lecture 2: Typography and Colors
+# Lecture 5: Containers
 2024-09-01
 
 <!--html_preserve--><details>
@@ -54,32 +54,31 @@
 
 ## Overview
 
-In this lecture, we will cover the basics of typography and colors in
-Bootstrap 5. We will explore the different typography utilities and color
-classes provided by Bootstrap. We will also discuss how to use these
-utilities to style text and backgrounds in your web pages.
+In this lecture, we will cover containers in Bootstrap 5. Containers are a
+fundamental building block in web design that help to organize and structure
+the content of a web page. Bootstrap provides several container classes that
+allow you to create responsive layouts and control the width of your content.
+We will explore the different container classes available in Bootstrap and
+learn how to use them effectively in your web projects.
 
 ## Topics Covered
 
-- Typography utilities in Bootstrap 5
-- Color classes in Bootstrap 5
-- Styling text and backgrounds
+- Container classes
+- Fluid containers
+- Nesting containers
+- Container alignment
 
 ## Resources
 
-- [Bootstrap typography](https://getbootstrap.com/docs/5.0/content/typography/)
-- [Bootstrap headings](https://getbootstrap.com/docs/5.0/content/typography/#headings)
-- [Bootstrap display headings](https://getbootstrap.com/docs/5.0/content/typography/#display-headings)
-- [Bootstrap lead](https://getbootstrap.com/docs/5.0/content/typography/#lead)
-- [Bootstrap inline text elements](https://getbootstrap.com/docs/5.0/content/typography/#inline-text-elements)
-- [Bootstrap text colors](https://getbootstrap.com/docs/5.0/utilities/colors/#colors)
-- [Bootstrap background colors](https://getbootstrap.com/docs/5.0/utilities/colors/#background-color)
-- [Emmet Abbreviation Lorem Ipsum generation](https://docs.emmet.io/abbreviations/lorem-ipsum/)
+- [Containers](https://getbootstrap.com/docs/5.0/layout/containers/)
+- [Fluid containers](https://getbootstrap.com/docs/5.0/layout/containers/#fluid-containers)
+- [Nesting containers](https://getbootstrap.com/docs/5.0/layout/containers/#nesting)
+- [Container alignment](https://getbootstrap.com/docs/5.0/layout/containers/#alignment)
 
 ## Instructions
 
 1. Open the "index.html" file in the lecture directory.
-1. Browse through the different typography utilities and color classes.
+1. Explore the different container classes and their applications.
 
 
 <!--html_preserve--><details>
