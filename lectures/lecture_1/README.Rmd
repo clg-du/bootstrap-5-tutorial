@@ -2,6 +2,11 @@
 
 ## Lecture 1: Introduction and Setup Bootstrap 5
 
+# include html file
+```{r}
+htmltools::includeHTML("index_lectures.html")
+```
+
 ### Overview
 In this lecture, we will cover the basics of Bootstrap 5 and its key features. We will also discuss how to set up a Bootstrap project and explore the various components and utilities provided by Bootstrap. An initial HTML template will be produced that will be utilized and expanded upon during the lectures. Please note that many, if not all, keyboard shortcuts are VSCode specific and probably will not function the same in other software or text editors.
 
