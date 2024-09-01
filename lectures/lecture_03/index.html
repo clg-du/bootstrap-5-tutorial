@@ -3,95 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 
     <title>Bootstrap 5 - the Ultimate eBook</title>
 </head>
 
 <body>
-
     <!--Lecture 3: Buttons -->
     <div class="lecture-header">
         <h1>Lecture 3: Buttons</h1>
         <!-- Index of Subheaders -->
         <span>
             <a href="#part1">Part 1: Basic buttons</a>
-            <a href="#part2">Part 2: Anchor tags as buttons</a>
+            <a href="#part2">Part 2: Anchor tag buttons</a>
             <a href="#part3">Part 3: Button sizes</a>
-            <a href="#part4">Part 4: Outlined styles</a>
-            <a href="#part5">Part 5: Button groups</a>
+            <a href="#part4">Part 4: Grouped buttons</a>
         </span>
     </div>
-
     <!-- Part 1: Basic buttons -->
     <div id="part1" class="lecture-header">
         <h2>Part 1: Basic buttons</h2>
         <a href="#top">To top of page</a>
     </div>
 
-    <!-- basic buttons -->
-    <button>This is a default button!</button>
-    <button class="btn btn-primary">This is a primary button</button> <!-- auto lightens text -->
-    <button class="btn btn-secondary">This is a secondary button</button>
+    <div class="text-center">
+    <button>default button</button>
+    <button class="btn btn-primary">primary button</button> <!-- auto lightens
+    text -->
+    <button class="btn btn-secondary">secondary button</button>
+</div>
 
-    <!-- Part 2: Anchor tags as buttons -->
+    <!-- Part 2: Anchor tag buttons -->
     <div id="part2" class="lecture-header">
-        <h2>Part 2: Anchor tags as buttons</h2>
+        <h2>Part 2: Anchor tag buttons</h2>
         <a href="#top">To top of page</a>
     </div>
 
-    <!-- anchor tags as buttons -->
     <div class="text-center">
-        <a href="#" class="btn btn-info">this is an info anchor tag</a>
-        <a href="#" class="btn btn-success">this is a success anchor tag</a>
-    </div>
-
+    <a href="#" class="btn btn-info">info anchor tag</a>
+    <a href="#" class="btn btn-success">success anchor tag</a>
+</div>
     <!-- Part 3: Button sizes -->
     <div id="part3" class="lecture-header">
         <h2>Part 3: Button sizes</h2>
         <a href="#top">To top of page</a>
     </div>
 
-    <!-- Lorem ipsum text can be generated using Emmet Abbreviation: lorem + tab
-         Example: lorem10 + tab gives 10 words of lorem ipsum text. -->
-
-    <!-- lead text & alignment -->
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta iste deserunt impedit quia aut
-        itaque delectus quisquam perspiciatis quam, ratione praesentium, distinctio veritatis veniam, aspernatur
-        molestiae mollitia minima dolorum dignissimos animi possimus architecto! Alias minima suscipit quasi, provident,
-        eos rem fuga animi, numquam sint laboriosam in. Maiores exercitationem expedita neque.</p>
-    <p class="lead text-center">Lorem ipsum dolor sit amet.</p>
-    <p class="lead text-end">Lorem ipsum dolor sit amet.</p>
-    <p class="lead text-start">Lorem ipsum dolor sit amet.</p>
-
-    <!-- Part 4: Outlined styles -->
-    <div id="part4" class="lecture-header">
-        <h2>Part 4: Outlined styles</h2>
+    <div class="text-center">
+    <button class="btn btn-lg btn-danger">large danger button</button>
+    <button class="btn btn-sm btn-warning">small warning button</button>
+</div>
+    <!-- Part 3: Button styles -->
+    <div id="part1" class="lecture-header">
+        <h2>Part 3: Button styles</h2>
         <a href="#top">To top of page</a>
     </div>
 
-    <!-- text decoration & font weight -->
-    <p class="text-decoration-underline">this is underlined text</p>
-    <p class="text-decoration-line-through">this is line-through text</p>
-    <p class="fw-bold">this bold text</p>
-    <small>this is small text</small>
-
-    <!-- Part 5: Button groups -->
-    <div id="part5" class="lecture-header">
-        <h2>Part 5: Button groups</h2>
+    <div class="text-center">
+    <button class="btn btn-outline-primary">outlined button</button>
+    <button class="btn btn-outline-secondary btn-lg">large outlined
+    button</button>
+</div>
+    <!-- Part 4: Grouped buttons -->
+    <div id="part1" class="lecture-header">
+        <h2>Part 4: Grouped buttons</h2>
         <a href="#top">To top of page</a>
     </div>
 
-    <!-- text colours -->
-    <p class="text-primary">theme primary colour</p>
-    <p class="text-secondary">theme secondary colour</p>
-    <p class="text-info">theme info colour</p>
-    <p class="text-warning">theme warning colour</p>
-    <p class="text-success">theme warning colour</p>
-    <p class="text-danger">theme danger colour</p>
-    <p class="text-muted">theme danger colour</p>
+    <div class="text-center">
+    <div class="btn-group">
+        <a href="#" class="btn btn-primary">button 1</a>
+        <a href="#" class="btn btn-warning">button 2</a>
+        <a href="#" class="btn btn-success">button 3</a>
+    </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
