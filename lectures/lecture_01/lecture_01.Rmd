@@ -1,4 +1,4 @@
-# Lecture 1: Introduction and Setup Bootstrap 5
+# Lecture 1: Introduction and Setup of Bootstrap 5
 `r Sys.Date()`
 
 ```{r echo = FALSE}
@@ -8,6 +8,7 @@ htmltools::includeHTML("../../index_exercises.html")
 
 
 ## Overview
+
 In this lecture, we will cover the basics of Bootstrap 5 and its key
 features. We will also discuss how to set up a Bootstrap project and explore
 the various components and utilities provided by Bootstrap. An initial HTML
@@ -17,6 +18,7 @@ specific and probably will not function the same in other software or text
 editors.
 
 ## Topics Covered
+
 - Introduction to Bootstrap 5
 - Easily setting up a Bootstrap 5 project
 
@@ -43,8 +45,7 @@ editors.
 
 1. Download VSCode and add the "Live Server" extension. Note that other text
    editors can of course also be used, but the content herein will primarily
-   be presented using VSCode. The "Live Server" extension is not necessary,
-    but it is a convenient way to view your HTML file in a browser.
+   be presented using VSCode
 1. Make sure a new file named "index.html" exists in your directory
 1. VSCode specific: Create a boilerplate HTML document by typing "doc" and
    hitting tab.
