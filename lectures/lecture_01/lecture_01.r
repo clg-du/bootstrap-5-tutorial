@@ -1,10 +1,11 @@
-#' # Lecture 1: Introduction and Setup Bootstrap 5
+#' # Lecture 1: Introduction and Setup of Bootstrap 5
 #' `r Sys.Date()`
 #+ echo = FALSE
 htmltools::includeHTML("../../index_lectures.html")
 htmltools::includeHTML("../../index_exercises.html")
 #'
 #' ## Overview
+#' 
 #' In this lecture, we will cover the basics of Bootstrap 5 and its key
 #' features. We will also discuss how to set up a Bootstrap project and explore
 #' the various components and utilities provided by Bootstrap. An initial HTML
@@ -14,6 +15,7 @@ htmltools::includeHTML("../../index_exercises.html")
 #' editors.
 #'
 #' ## Topics Covered
+#' 
 #' - Introduction to Bootstrap 5
 #' - Easily setting up a Bootstrap 5 project
 #'

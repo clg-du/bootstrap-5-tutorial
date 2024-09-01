@@ -53,12 +53,10 @@ for (i in seq_along(r_files)) {
   rmd_file <- sub("\\.r$", ".Rmd", r_file)
   md_file <- sub("\\.r$", ".md", r_file)
   knitr::spin(r_file, knit = FALSE)
-  setwd(paste0("./", dirname(r_file)))
   knitr::opts_chunk$set(fig.path = paste0(
     "../../",
     dirname(r_file),
     "/figures/"
   ))
-  setwd(rprojroot::find_rstudio_root_file())
   knitr::knit(rmd_file, output = md_file)
 }
