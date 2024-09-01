@@ -43,7 +43,8 @@ editors.
 
 1. Download VSCode and add the "Live Server" extension. Note that other text
    editors can of course also be used, but the content herein will primarily
-   be presented using VSCode
+   be presented using VSCode. The "Live Server" extension is not necessary,
+    but it is a convenient way to view your HTML file in a browser.
 1. Make sure a new file named "index.html" exists in your directory
 1. VSCode specific: Create a boilerplate HTML document by typing "doc" and
    hitting tab.
