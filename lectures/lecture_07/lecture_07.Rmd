@@ -3,7 +3,6 @@
 
 ```{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ```
 
 
@@ -40,6 +39,5 @@ create responsive navbars and forms using Bootstrap.
 
 ```{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ```
 

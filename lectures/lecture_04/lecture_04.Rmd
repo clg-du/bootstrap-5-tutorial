@@ -3,7 +3,6 @@
 
 ````{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ````
 
 
@@ -104,6 +103,5 @@ Here is an example of how to use sizing utilities in Bootstrap:
 
 ````{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ````
 

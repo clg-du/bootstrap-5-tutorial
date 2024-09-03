@@ -3,7 +3,6 @@
 
 ```{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ```
 
 
@@ -34,6 +33,5 @@ classes, and how to create responsive layouts using the grid system.
 
 ```{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ```
 

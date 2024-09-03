@@ -14,15 +14,6 @@
 
 </details><!--/html_preserve-->
 
-```
-## Warning in file(con, "r"): cannot open file '../../index_exercises.html': No
-## such file or directory
-```
-
-```
-## Error in file(con, "r"): cannot open the connection
-```
-
 
 ## Overview
 
@@ -67,13 +58,4 @@ create responsive navbars and forms using Bootstrap.
 - [Lecture 7: Navbars and Forms](/lectures/lecture_07/lecture_07.md)
 
 </details><!--/html_preserve-->
-
-```
-## Warning in file(con, "r"): cannot open file '../../index_exercises.html': No
-## such file or directory
-```
-
-```
-## Error in file(con, "r"): cannot open the connection
-```
 

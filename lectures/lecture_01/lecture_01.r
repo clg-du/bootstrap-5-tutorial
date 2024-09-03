@@ -2,7 +2,6 @@
 #' `r Sys.Date()`
 #+ echo = FALSE
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 #'
 #' ## Overview
 #' 
@@ -116,4 +115,3 @@ htmltools::includeHTML("../../index_exercises.html")
 #'
 #+ echo = FALSE
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")

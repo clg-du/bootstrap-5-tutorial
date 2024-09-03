@@ -3,7 +3,6 @@
 
 ```{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ```
 
 
@@ -38,6 +37,5 @@ learn how to use them effectively in your web projects.
 
 ```{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ```
 

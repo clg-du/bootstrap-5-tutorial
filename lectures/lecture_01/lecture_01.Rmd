@@ -3,7 +3,6 @@
 
 ````{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ````
 
 
@@ -120,6 +119,5 @@ our project without having to download and include the files manually.
 
 ````{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ````
 

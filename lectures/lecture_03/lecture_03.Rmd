@@ -3,7 +3,6 @@
 
 ````{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ````
 
 
@@ -129,6 +128,5 @@ experience.
 
 ````{r echo = FALSE}
 htmltools::includeHTML("../../index_lectures.html")
-htmltools::includeHTML("../../index_exercises.html")
 ````
 
