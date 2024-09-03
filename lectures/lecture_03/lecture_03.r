@@ -20,19 +20,108 @@ htmltools::includeHTML("../../index_exercises.html")
 #' - Button sizes
 #' - Button styles
 #' - Grouped buttons
-#'
-#' ## Resources
-#'
-#' - [Basic buttons](https://getbootstrap.com/docs/5.0/components/buttons/)
-#' - [Anchor tag buttons](https://getbootstrap.com/docs/5.0/components/buttons/#anchor-tags)
-#' - [Button sizes](https://getbootstrap.com/docs/5.0/components/buttons/#sizing)
-#' - [Button styles](https://getbootstrap.com/docs/5.0/components/buttons/#examples)
-#' - [Grouped buttons](https://getbootstrap.com/docs/5.0/components/button-group/)
+#' 
+#' ## About Buttons
+#' 
+#' Buttons are interactive elements that allow users to perform actions on a
+#' web page. They are commonly used for submitting forms, navigating to
+#' different pages, or triggering other interactive tasks. Bootstrap provides a
+#' range of button styles, sizes, and states that allow you to create
+#' attractive and interactive buttons for your web pages.
+#' 
+#' ## Basic Buttons
+#' 
+#' Bootstrap provides a range of button styles that you can use to create
+#' attractive and interactive buttons for your web pages. These styles include
+#' primary, secondary, success, danger, warning, info, light, and dark buttons.
+#' You can also customize the appearance of buttons by adding additional
+#' classes, such as outline buttons, disabled buttons, and button groups.
+#' 
+#' Here is an example of how to create a primary button in Bootstrap:
+#' 
+#' ```html
+#' <button type="button" class="btn btn-primary">Primary Button</button>
+#' ```
+#' 
+#' ## Anchor Tag Buttons
+#' 
+#' Bootstrap allows you to create buttons using anchor tags (`<a>` elements)
+#' with the `.btn` class. This allows you to create interactive buttons that
+#' can be styled and customized using Bootstrap's button classes. Anchor tag
+#' buttons are useful for creating links that trigger actions or navigate to
+#' different pages.
+#' 
+#' Here is an example of how to create an anchor tag button in Bootstrap:
+#' 
+#' ```html
+#' <a href="#" class="btn btn-primary">Primary Button</a>
+#' ```
+#' 
+#' ## Button Sizes
+#' 
+#' Bootstrap provides a range of button sizes that you can use to create buttons
+#' of different sizes. These sizes include small, large, and block-level
+#' buttons. By using these sizes, you can create buttons that fit the design of
+#' your web page and provide a consistent user experience.
+#' 
+#' Here is an example of how to create a large button in Bootstrap:
+#' 
+#' ```html
+#' <button type="button" class="btn btn-primary btn-lg">Large Button</button>
+#' ```
+#' 
+#' ## Button Styles
+#' 
+#' Bootstrap provides a range of button styles that you can use to create
+#' attractive and interactive buttons for your web pages. These styles include
+#' primary, secondary, success, danger, warning, info, light, and dark buttons.
+#' You can also customize the appearance of buttons by adding additional
+#' classes, such as outline buttons, disabled buttons, and button groups.
+#' 
+#' Here is an example of how to create a success button in Bootstrap:
+#' 
+#' ```html
+#' <button type="button" class="btn btn-success">Success Button</button>
+#' ```
+#' 
+#' ## Grouped Buttons
+#' 
+#' Bootstrap allows you to group buttons together using the `.btn-group` class.
+#' This allows you to create sets of related buttons that are visually grouped
+#' together. You can also create button toolbars and button dropdowns using
+#' Bootstrap's button group classes.
+#' 
+#' Here is an example of how to create a button group in Bootstrap:
+#' 
+#' ```html
+#' <div class="btn-group" role="group" aria-label="Basic example">
+#'  <button type="button" class="btn btn-primary">Left</button>
+#' <button type="button" class="btn btn-primary">Middle</button>
+#' <button type="button" class="btn btn-primary">Right</button>
+#' </div>
+#' ```
+#' 
+#' ## Summary
+#' 
+#' In this lecture, we covered the basics of buttons in Bootstrap 5. We explored
+#' the different button styles, sizes, and states provided by Bootstrap and
+#' learned how to create attractive and interactive buttons for web pages. By
+#' using Bootstrap's button classes and utilities, you can easily create
+#' buttons that fit the design of your web page and provide a consistent user
+#' experience.
 #'
 #' ## Instructions
 #'
 #' 1. Open the "index.html" file in the lecture directory.
 #' 1. Browse through the different button styles, sizes, and states.
+#'
+#' ## Resources
+#' 
+#' - [Basic buttons](https://getbootstrap.com/docs/5.0/components/buttons/)
+#' - [Anchor tag buttons](https://getbootstrap.com/docs/5.0/components/buttons/#anchor-tags)
+#' - [Button sizes](https://getbootstrap.com/docs/5.0/components/buttons/#sizing)
+#' - [Button styles](https://getbootstrap.com/docs/5.0/components/buttons/#examples)
+#' - [Grouped buttons](https://getbootstrap.com/docs/5.0/components/button-group/)
 #'
 #+ echo = FALSE
 htmltools::includeHTML("../../index_lectures.html")

@@ -140,6 +140,11 @@ htmltools::includeHTML("../../index_exercises.html")
 #' <div class="bg-light text-dark">Light background</div>
 #' <div class="bg-dark text-light">Dark background</div>
 #' ```
+#' 
+#' ## Instructions
+#'
+#' 1. Open the "index.html" file in the lecture directory.
+#' 1. Browse through the different typography utilities and color classes.
 #'
 #' ## Resources
 #'
@@ -151,11 +156,6 @@ htmltools::includeHTML("../../index_exercises.html")
 #' - [Bootstrap text colors](https://getbootstrap.com/docs/5.0/utilities/colors/#colors)
 #' - [Bootstrap background colors](https://getbootstrap.com/docs/5.0/utilities/colors/#background-color)
 #' - [Emmet Abbreviation Lorem Ipsum generation](https://docs.emmet.io/abbreviations/lorem-ipsum/)
-#'
-#' ## Instructions
-#'
-#' 1. Open the "index.html" file in the lecture directory.
-#' 1. Browse through the different typography utilities and color classes.
 #'
 #+ echo = FALSE
 htmltools::includeHTML("../../index_lectures.html")

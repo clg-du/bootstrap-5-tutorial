@@ -68,26 +68,7 @@ htmltools::includeHTML("../../index_exercises.html")
 #' In this example, we have linked to the Bootstrap CSS and JavaScript files using
 #' the Bootstrap CDN. This allows us to use the latest version of Bootstrap in
 #' our project without having to download and include the files manually.
-#'
-#' ## Resources
-#'
-#' - [VSCode](https://code.visualstudio.com/) (Visual Studio Code)
-#' - Provided that you have installed VSCode, add the "Live Server" extension
-#'   within VSCode!
-#' - [Emmet Abbreviation in
-#'   VSCode](https://code.visualstudio.com/docs/editor/emmet)
-#' - [Bootstrap
-#'   Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-#' - [Bootstrap Examples](https://getbootstrap.com/docs/5.0/examples/)
-#' - [CDN via jsDelivr
-#'   links](https://getbootstrap.com/docs/5.0/getting-started/download/#cdn-via-jsdelivr)
-#' - [Bootstrap Native Font
-#'   Stack](https://getbootstrap.com/docs/5.0/content/reboot/#native-font-stack)
-#' - [Web browser font
-#'   defaults](https://granneman.com/webdev/coding/css/fonts-and-formatting/web-browser-font-defaults)
-#' - [Mozilla Horizontal Rule
-#'   Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
-#'
+#' 
 #' ## Instructions
 #'
 #' 1. Download VSCode and add the "Live Server" extension. Note that other text
@@ -113,6 +94,25 @@ htmltools::includeHTML("../../index_exercises.html")
 #' 1. Check out the font style again in your browser. Note that the font has now
 #'    changed. The default font stack is provided in [this
 #'    link](https://getbootstrap.com/docs/5.0/content/reboot/#native-font-stack)
+#'
+#' ## Resources
+#'
+#' - [VSCode](https://code.visualstudio.com/) (Visual Studio Code)
+#' - Provided that you have installed VSCode, add the "Live Server" extension
+#'   within VSCode!
+#' - [Emmet Abbreviation in
+#'   VSCode](https://code.visualstudio.com/docs/editor/emmet)
+#' - [Bootstrap
+#'   Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+#' - [Bootstrap Examples](https://getbootstrap.com/docs/5.0/examples/)
+#' - [CDN via jsDelivr
+#'   links](https://getbootstrap.com/docs/5.0/getting-started/download/#cdn-via-jsdelivr)
+#' - [Bootstrap Native Font
+#'   Stack](https://getbootstrap.com/docs/5.0/content/reboot/#native-font-stack)
+#' - [Web browser font
+#'   defaults](https://granneman.com/webdev/coding/css/fonts-and-formatting/web-browser-font-defaults)
+#' - [Mozilla Horizontal Rule
+#'   Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr)
 #'
 #+ echo = FALSE
 htmltools::includeHTML("../../index_lectures.html")
