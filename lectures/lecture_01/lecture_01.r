@@ -18,6 +18,52 @@ htmltools::includeHTML("../../index_exercises.html")
 #' 
 #' - Introduction to Bootstrap 5
 #' - Easily setting up a Bootstrap 5 project
+#' 
+#' ## About Bootstrap 5
+#' 
+#' Bootstrap is a popular front-end framework that allows developers to create
+#' responsive and mobile-first websites quickly and easily. It provides a
+#' collection of CSS and JavaScript components that can be used to build
+#' websites with a consistent and professional look. Bootstrap is widely used in
+#' web development and is supported by a large community of developers.
+#' 
+#' Bootstrap 5 is the latest version of the framework and includes several new
+#' features and improvements over previous versions. It is designed to be more
+#' lightweight and customizable, making it easier to create modern and
+#' responsive websites.
+#' 
+#' ## Setting up a Bootstrap 5 project
+#' 
+#' To set up a Bootstrap 5 project, you will need to include the Bootstrap CSS
+#' and JavaScript files in your HTML document. You can do this by linking to the
+#' Bootstrap CDN (Content Delivery Network) or by downloading the Bootstrap
+#' files and including them in your project.
+#' 
+#' Here is an example of how to include the Bootstrap CSS and JavaScript files in
+#' your HTML document using the Bootstrap CDN:
+#' 
+#' ```html
+#' <!DOCTYPE html>
+#' <html lang="en">
+#' <head>
+#'    <meta charset="UTF-8">
+#'   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+#'  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#' <title>Bootstrap 5 Project</title>
+#' 
+#' <!-- Bootstrap CSS -->
+#' <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+#' </head>
+#' 
+#' <body>
+#' 
+#' <!-- Content goes here -->
+#' 
+#' <!-- Bootstrap JS -->
+#' <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+#' </body>
+#' </html>
+#' ```
 #'
 #' ## Resources
 #'

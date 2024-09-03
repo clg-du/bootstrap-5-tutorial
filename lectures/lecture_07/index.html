@@ -1,0 +1,412 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Bootstrap 5 - the Ultimate eBook</title>
+</head>
+
+<body>
+    <!--Lecture 7: Navbars and Forms -->
+    <div class="sticky-top lecture-header">
+        <h1>Lecture 7: Navbars and Forms</h1>
+        <blockquote class="blockquote">
+            <p class="mb-0">Navbars and forms are essential components of a
+            website. Navbars are used to create navigation menus, while forms
+            are used to collect user input.</p>
+            <!-- Index of Subheaders -->
+            <span>
+                <a href="#part1">Part 1: Introduction to navbars</a>
+                <a href="#part2">Part 2: Navbar components</a>
+                <a href="#part3">Part 3: Navbar alignment</a>
+                <a href="#part4">Part 4: Responsive navbars</a>
+                <a href="#part5">Part 5: Introduction to forms</a>
+                <a href="#part6">Part 6: Form components</a>
+                <a href="#part7">Part 7: Form validation</a>
+                <a href="#part8">Part 8: Form layout</a>
+                <a href="#part9">Part 9: Responsive forms</a>
+            </span>
+            <a href="#top">To top of page</a>
+    </div>
+
+    <!-- Part 1: Introduction to navbars -->
+    <div id="part1" class="lecture-header">
+        <h2>Part 1: Introduction to navbars</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">Navbars are used to create navigation menus. They
+            are responsive and can be customized to fit the design of your
+            website.</p>
+            <a href="#top">To top of page</a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
+            navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                        href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Part 2: Navbar components -->
+    <div id="part2" class="lecture-header">
+        <h2>Part 2: Navbar components</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">Navbars can contain various components such as
+            dropdowns, forms, and buttons.</p>
+            <a href="#top">To top of page</a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
+            navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav
+                    <li class=" nav-item">
+                    <a class="nav-link active" aria-current="page"
+                    href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"
+                        id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu"
+                        aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item"
+                            href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another
+                            action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else
+                            here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Part 3: Navbar alignment -->
+    <div id="part3" class="lecture-header">
+        <h2>Part 3: Navbar alignment</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">Navbars can be aligned to the left, center, or right
+            of the page.</p>
+            <a href="#top">To top of page</a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
+            navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center"
+            id="navbarNav">
+                <ul class="navbar-nav
+                    <li class=" nav-item">
+                    <a class="nav-link active" aria-current="page"
+                    href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Part 4: Responsive navbars -->
+    <div id="part4" class="lecture-header">
+        <h2>Part 4: Responsive navbars</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">Navbars can be made responsive by using the
+                <code>navbar-expand-lg</code> class.
+            </p>
+            <a href="#top">To top of page</a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
+            navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav
+                    <li class=" nav-item">
+                    <a class="nav-link active" aria-current="page"
+                    href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Part 5: Introduction to forms -->
+    <div id="part5" class="lecture-header">
+        <h2>Part 5: Introduction to forms</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">Forms are used to collect user input. They can
+            contain various components such as text fields, checkboxes, and
+            buttons.</p>
+            <a href="#top">To top of page</a>
+    </div>
+
+    <form>
+        <div class="container">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email
+                address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your
+                email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1"
+                class="form-label">Password</label>
+                <input type="password" class="form-control"
+                id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input"
+                id="exampleCheck1">
+                <label class="form-check
+                    <input type=" checkbox" class="form-check-input"
+                    id="exampleCheck1">
+                    <label class="form-check
+                        
+                        label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+    <!-- Part 6: Form components -->
+    <div id="part6" class="lecture-header">
+        <h2>Part 6: Form components</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">Forms can contain various components such as text
+            fields, checkboxes, and buttons.</p>
+            <a href="#top">To top of page</a>
+    </div>
+
+    <form>
+        <div class="container">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email
+                address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your
+                email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1"
+                class="form-label">Password</label>
+                <input type="password" class="form-control"
+                id="exampleInputPassword1">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input"
+                id="exampleCheck1">
+                <label class="form-check
+                    <input type=" checkbox" class="form-check-input"
+                    id="exampleCheck1">
+                    <label class="form-check
+                            
+                            label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+
+        </div>
+    </form>
+
+    <!-- Part 7: Form validation -->
+    <div id="part7" class="lecture-header">
+        <h2>Part 7: Form validation</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">Forms can be validated using the built-in form
+            validation classes.</p>
+            <a href="#top">To top of page</a>
+
+    </div>
+
+    <form>
+        <div class="container">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check
+                    <input type=" checkbox" class="form-check-input"
+                    id="exampleCheck1">
+                    <label class="form-check
+                                
+                                label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+    <!-- Part 8: Form layout -->
+    <div id="part8" class="lecture-header">
+        <h2>Part 8: Form layout</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">Forms can be laid out in various ways, such as
+            inline or horizontal.</p>
+            <a href="#top">To top of page</a>
+    </div>
+
+    <form>
+        <div class="container">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label
+                <input type="email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your
+                email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1"
+                class="form-label">Password</label>
+                <input type="password" class="form-control"
+                id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input"
+                id="exampleCheck1">
+                <label class="form-check
+                    <input type=" checkbox" class="form-check-input"
+                    id="exampleCheck1">
+                    <label class="form-check
+
+                            label" for="exampleCheck1">Check me out</label>
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+    <!-- Part 9: Responsive forms -->
+    <div id="part9" class="lecture-header">
+        <h2>Part 9: Responsive forms</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">Forms can be made responsive by using the
+                <code>container</code> class.
+            </p>
+            <a href="#top">To top of page</a>
+    </div>
+
+    <form>
+        <div class="container">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check
+                    <input type=" checkbox" class="form-check-input"
+                    id="exampleCheck1">
+                    <label class="form-check
+
+                            label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+
+    <!-- Footer -->
+    <div class="fixed-bottom lecture-footer">
+        <a href="#top">To top of page</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
