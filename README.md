@@ -55,5 +55,5 @@ submit a pull request.
 
 Happy coding! 
 
- [^1] The `.Rmd` and `.r` are identical and used to create the corresponding `.md` file, and are hence not necessary to study. For those with prior background in R programming language or desire to achieve the same results, please use `knitr::spin` and `knitr::knit` as well as the `knit_all.r` script included in this repository.
+ [^1]: The `.Rmd` and `.r` are identical and used to create the corresponding `.md` file, and are hence not necessary to study. For those with prior background in R programming language or desire to achieve the same results, please use `knitr::spin` and `knitr::knit` as well as the `knit_all.r` script included in this repository.
 
