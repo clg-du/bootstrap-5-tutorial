@@ -5,21 +5,21 @@ htmltools::includeHTML("../../index_lectures.html")
 #'
 #' ## Overview
 #'
-#' In this lecture, we will cover utility classes in Bootstrap 5. Utility classes
-#' are a set of predefined CSS classes that can be used to apply common styles
-#' and properties to elements in your web pages. These classes provide a quick
-#' and easy way to add styling without writing custom CSS code. We will explore
-#' some of the most commonly used utility classes in Bootstrap and learn how to
-#' leverage them to enhance the design and layout of your web pages.
+#' In this lecture, we will cover utility classes in Bootstrap 5. Utility
+#' classes are a set of predefined CSS classes that can be used to apply common
+#' styles and properties to elements in your web pages. These classes provide a
+#' quick and easy way to add styling without writing custom CSS code. We will
+#' explore some of the most commonly used utility classes in Bootstrap and learn
+#' how to leverage them to enhance the design and layout of your web pages.
 #'
 #' ## Topics Covered
 #'
 #' - Text utilities
 #' - Spacing utilities
 #' - Sizing utilities
-#' 
+#'
 #' ## About Utility Classes
-#' 
+#'
 #' Utility classes are a set of predefined CSS classes that can be used to apply
 #' common styles and properties to elements in your web pages. These classes
 #' provide a quick and easy way to add styling without writing custom CSS code.
@@ -27,34 +27,34 @@ htmltools::includeHTML("../../index_lectures.html")
 #' text, spacing, sizing, and more. By using these classes, you can enhance the
 #' design and layout of your web pages and create a consistent and professional
 #' look.
-#' 
+#'
 #' ## Text Utilities
-#' 
+#'
 #' Bootstrap provides a range of text utilities that allow you to style text in
 #' your web pages. These utilities include text alignment, text wrapping, text
 #' transformation, and text decoration classes. By using these classes, you can
 #' customize the appearance of text elements and create visually appealing
 #' content.
-#' 
+#'
 #' Here is an example of how to use text utilities in Bootstrap:
-#' 
+#'
 #' ```html
 #' <p class="text-center">Centered text</p>
 #' <p class="text-uppercase">Uppercase text</p>
 #' <p class="text-decoration-underline">Underlined text</p>
 #' <p class="text-wrap">Wrapped text</p>
 #' ```
-#' 
+#'
 #' ## Spacing Utilities
-#' 
-#' Spacing utilities in Bootstrap allow you to add margin and padding to elements
-#' in your web pages. These utilities include classes for adding margin and
-#' padding to the top, bottom, left, and right sides of an element. By using
-#' these classes, you can create space between elements and control the layout of
-#' your web pages.
-#' 
+#'
+#' Spacing utilities in Bootstrap allow you to add margin and padding to
+#' elements in your web pages. These utilities include classes for adding margin
+#' and padding to the top, bottom, left, and right sides of an element. By using
+#' these classes, you can create space between elements and control the layout
+#' of your web pages.
+#'
 #' Here is an example of how to use spacing utilities in Bootstrap:
-#' 
+#'
 #' ```html
 #' <div class="mt-3">Margin top</div>
 #' <div class="mb-3">Margin bottom</div>
@@ -65,17 +65,17 @@ htmltools::includeHTML("../../index_lectures.html")
 #' <div class="pl-3">Padding left</div>
 #' <div class="pr-3">Padding right</div>
 #' ```
-#' 
+#'
 #' ## Sizing Utilities
-#' 
-#' Sizing utilities in Bootstrap allow you to control the size of elements in your
-#' web pages. These utilities include classes for setting the width and height of
-#' elements, as well as classes for controlling the maximum and minimum width and
-#' height. By using these classes, you can create responsive and well-proportioned
-#' designs that adapt to different screen sizes.
-#' 
+#'
+#' Sizing utilities in Bootstrap allow you to control the size of elements in
+#' your web pages. These utilities include classes for setting the width and
+#' height of elements, as well as classes for controlling the maximum and
+#' minimum width and height. By using these classes, you can create responsive
+#' and well-proportioned designs that adapt to different screen sizes.
+#'
 #' Here is an example of how to use sizing utilities in Bootstrap:
-#' 
+#'
 #' ```html
 #' <div class="w-50">Width 50%</div>
 #' <div class="h-50">Height 50%</div>
@@ -84,8 +84,18 @@ htmltools::includeHTML("../../index_lectures.html")
 #' <div class="minw-50">Min-width 50%</div>
 #' <div class="minh-50">Min-height 50%</div>
 #' ```
-#'  
 #' 
+#' ## Summary
+#' 
+#' In this lecture, we covered utility classes in Bootstrap 5. Utility classes
+#' are a set of predefined CSS classes that can be used to apply common styles
+#' and properties to elements in your web pages. We explored text utilities,
+#' spacing utilities, and sizing utilities provided by Bootstrap and learned how
+#' to leverage them to enhance the design and layout of web pages. By using
+#' utility classes, you can quickly and easily add styling to your web pages and
+#' create visually appealing and well-structured content.
+#' 
+#'
 #' ## Instructions
 #'
 #' 1. Open the "index.html" file in the lecture directory.

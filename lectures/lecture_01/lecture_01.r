@@ -4,7 +4,7 @@
 htmltools::includeHTML("../../index_lectures.html")
 #'
 #' ## Overview
-#' 
+#'
 #' In this lecture, we will cover the basics of Bootstrap 5 and its key
 #' features. We will also discuss how to set up a Bootstrap project and explore
 #' the various components and utilities provided by Bootstrap. An initial HTML
@@ -14,33 +14,42 @@ htmltools::includeHTML("../../index_lectures.html")
 #' editors.
 #'
 #' ## Topics Covered
-#' 
+#'
 #' - Introduction to Bootstrap 5
 #' - Easily setting up a Bootstrap 5 project
-#' 
-#' ## About Bootstrap 5
-#' 
+#'
+#' ## Introduction to Bootstrap 5
+#'
 #' Bootstrap is a popular front-end framework that allows developers to create
 #' responsive and mobile-first websites quickly and easily. It provides a
 #' collection of CSS and JavaScript components that can be used to build
 #' websites with a consistent and professional look. Bootstrap is widely used in
 #' web development and is supported by a large community of developers.
-#' 
+#'
 #' Bootstrap 5 is the latest version of the framework and includes several new
 #' features and improvements over previous versions. It is designed to be more
 #' lightweight and customizable, making it easier to create modern and
 #' responsive websites.
 #' 
-#' ## Setting up a Bootstrap 5 project
+#' Bootstrap 5 includes a range of components and utilities that can be used to
+#' create layouts, style text, add buttons, and more. It also provides a
+#' collection of pre-built templates and examples that you can use as a starting
+#' point for your projects.
 #' 
+#' In this lecture series, we will explore the key features of Bootstrap 5 and
+#' learn how to use the framework to create responsive and professional-looking
+#' websites.
+#'
+#' ## Easily setting up a Bootstrap 5 project
+#'
 #' To set up a Bootstrap 5 project, you will need to include the Bootstrap CSS
 #' and JavaScript files in your HTML document. You can do this by linking to the
 #' Bootstrap CDN (Content Delivery Network) or by downloading the Bootstrap
 #' files and including them in your project.
-#' 
-#' Here is an example of how to include the Bootstrap CSS and JavaScript files in
-#' your HTML document using the Bootstrap CDN:
-#' 
+#'
+#' Here is an example of how to include the Bootstrap CSS and JavaScript files
+#' in your HTML document using the Bootstrap CDN:
+#'
 #' ```html
 #' <!DOCTYPE html>
 #' <html lang="en">
@@ -49,25 +58,28 @@ htmltools::includeHTML("../../index_lectures.html")
 #'   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 #'  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 #' <title>Bootstrap 5 Project</title>
-#' 
+#'
 #' <!-- Bootstrap CSS -->
 #' <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
 #' </head>
-#' 
+#'
 #' <body>
-#' 
+#'
 #' <!-- Content goes here -->
-#' 
+#'
 #' <!-- Bootstrap JS -->
 #' <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 #' </body>
 #' </html>
 #' ```
 #' 
-#' In this example, we have linked to the Bootstrap CSS and JavaScript files using
-#' the Bootstrap CDN. This allows us to use the latest version of Bootstrap in
-#' our project without having to download and include the files manually.
-#' 
+#' ## Summary
+#'
+#' In this example, we have linked to the Bootstrap CSS and JavaScript files
+#' using the Bootstrap CDN. This allows us to use the latest version of
+#' Bootstrap in our project without having to download and include the files
+#' manually.
+#'
 #' ## Instructions
 #'
 #' 1. Download VSCode and add the "Live Server" extension. Note that other text

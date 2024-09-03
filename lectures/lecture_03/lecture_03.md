@@ -34,11 +34,11 @@ interactive buttons for your web pages.
 
 ## About Buttons
 
-Buttons are interactive elements that allow users to perform actions on a
-web page. They are commonly used for submitting forms, navigating to
-different pages, or triggering other interactive tasks. Bootstrap provides a
-range of button styles, sizes, and states that allow you to create
-attractive and interactive buttons for your web pages.
+Buttons are interactive elements that allow users to perform actions on a web
+page. They are commonly used for submitting forms, navigating to different
+pages, or triggering other interactive tasks. Bootstrap provides a range of
+button styles, sizes, and states that allow you to create attractive and
+interactive buttons for your web pages.
 
 ## Basic Buttons
 
@@ -57,10 +57,10 @@ Here is an example of how to create a primary button in Bootstrap:
 ## Anchor Tag Buttons
 
 Bootstrap allows you to create buttons using anchor tags (`<a>` elements)
-with the `.btn` class. This allows you to create interactive buttons that
-can be styled and customized using Bootstrap's button classes. Anchor tag
-buttons are useful for creating links that trigger actions or navigate to
-different pages.
+with the `.btn` class. This allows you to create interactive buttons that can
+be styled and customized using Bootstrap's button classes. Anchor tag buttons
+are useful for creating links that trigger actions or navigate to different
+pages.
 
 Here is an example of how to create an anchor tag button in Bootstrap:
 
@@ -117,8 +117,8 @@ Here is an example of how to create a button group in Bootstrap:
 In this lecture, we covered the basics of buttons in Bootstrap 5. We explored
 the different button styles, sizes, and states provided by Bootstrap and
 learned how to create attractive and interactive buttons for web pages. By
-using Bootstrap's button classes and utilities, you can easily create
-buttons that fit the design of your web page and provide a consistent user
+using Bootstrap's button classes and utilities, you can easily create buttons
+that fit the design of your web page and provide a consistent user
 experience.
 
 ## Instructions
@@ -129,10 +129,14 @@ experience.
 ## Resources
 
 - [Basic buttons](https://getbootstrap.com/docs/5.0/components/buttons/)
-- [Anchor tag buttons](https://getbootstrap.com/docs/5.0/components/buttons/#anchor-tags)
-- [Button sizes](https://getbootstrap.com/docs/5.0/components/buttons/#sizing)
-- [Button styles](https://getbootstrap.com/docs/5.0/components/buttons/#examples)
-- [Grouped buttons](https://getbootstrap.com/docs/5.0/components/button-group/)
+- [Anchor tag
+  buttons](https://getbootstrap.com/docs/5.0/components/buttons/#anchor-tags)
+- [Button
+  sizes](https://getbootstrap.com/docs/5.0/components/buttons/#sizing)
+- [Button
+  styles](https://getbootstrap.com/docs/5.0/components/buttons/#examples)
+- [Grouped
+  buttons](https://getbootstrap.com/docs/5.0/components/button-group/)
 
 
 <!--html_preserve--><details>

@@ -17,12 +17,12 @@
 
 ## Overview
 
-In this lecture, we will cover utility classes in Bootstrap 5. Utility classes
-are a set of predefined CSS classes that can be used to apply common styles
-and properties to elements in your web pages. These classes provide a quick
-and easy way to add styling without writing custom CSS code. We will explore
-some of the most commonly used utility classes in Bootstrap and learn how to
-leverage them to enhance the design and layout of your web pages.
+In this lecture, we will cover utility classes in Bootstrap 5. Utility
+classes are a set of predefined CSS classes that can be used to apply common
+styles and properties to elements in your web pages. These classes provide a
+quick and easy way to add styling without writing custom CSS code. We will
+explore some of the most commonly used utility classes in Bootstrap and learn
+how to leverage them to enhance the design and layout of your web pages.
 
 ## Topics Covered
 
@@ -59,11 +59,11 @@ Here is an example of how to use text utilities in Bootstrap:
 
 ## Spacing Utilities
 
-Spacing utilities in Bootstrap allow you to add margin and padding to elements
-in your web pages. These utilities include classes for adding margin and
-padding to the top, bottom, left, and right sides of an element. By using
-these classes, you can create space between elements and control the layout of
-your web pages.
+Spacing utilities in Bootstrap allow you to add margin and padding to
+elements in your web pages. These utilities include classes for adding margin
+and padding to the top, bottom, left, and right sides of an element. By using
+these classes, you can create space between elements and control the layout
+of your web pages.
 
 Here is an example of how to use spacing utilities in Bootstrap:
 
@@ -80,11 +80,11 @@ Here is an example of how to use spacing utilities in Bootstrap:
 
 ## Sizing Utilities
 
-Sizing utilities in Bootstrap allow you to control the size of elements in your
-web pages. These utilities include classes for setting the width and height of
-elements, as well as classes for controlling the maximum and minimum width and
-height. By using these classes, you can create responsive and well-proportioned
-designs that adapt to different screen sizes.
+Sizing utilities in Bootstrap allow you to control the size of elements in
+your web pages. These utilities include classes for setting the width and
+height of elements, as well as classes for controlling the maximum and
+minimum width and height. By using these classes, you can create responsive
+and well-proportioned designs that adapt to different screen sizes.
 
 Here is an example of how to use sizing utilities in Bootstrap:
 
@@ -96,7 +96,17 @@ Here is an example of how to use sizing utilities in Bootstrap:
 <div class="minw-50">Min-width 50%</div>
 <div class="minh-50">Min-height 50%</div>
 ```
- 
+
+## Summary
+
+In this lecture, we covered utility classes in Bootstrap 5. Utility classes
+are a set of predefined CSS classes that can be used to apply common styles
+and properties to elements in your web pages. We explored text utilities,
+spacing utilities, and sizing utilities provided by Bootstrap and learned how
+to leverage them to enhance the design and layout of web pages. By using
+utility classes, you can quickly and easily add styling to your web pages and
+create visually appealing and well-structured content.
+
 
 ## Instructions
 

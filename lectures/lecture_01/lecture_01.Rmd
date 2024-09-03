@@ -21,7 +21,7 @@ editors.
 - Introduction to Bootstrap 5
 - Easily setting up a Bootstrap 5 project
 
-## About Bootstrap 5
+## Introduction to Bootstrap 5
 
 Bootstrap is a popular front-end framework that allows developers to create
 responsive and mobile-first websites quickly and easily. It provides a
@@ -34,15 +34,24 @@ features and improvements over previous versions. It is designed to be more
 lightweight and customizable, making it easier to create modern and
 responsive websites.
 
-## Setting up a Bootstrap 5 project
+Bootstrap 5 includes a range of components and utilities that can be used to
+create layouts, style text, add buttons, and more. It also provides a
+collection of pre-built templates and examples that you can use as a starting
+point for your projects.
+
+In this lecture series, we will explore the key features of Bootstrap 5 and
+learn how to use the framework to create responsive and professional-looking
+websites.
+
+## Easily setting up a Bootstrap 5 project
 
 To set up a Bootstrap 5 project, you will need to include the Bootstrap CSS
 and JavaScript files in your HTML document. You can do this by linking to the
 Bootstrap CDN (Content Delivery Network) or by downloading the Bootstrap
 files and including them in your project.
 
-Here is an example of how to include the Bootstrap CSS and JavaScript files in
-your HTML document using the Bootstrap CDN:
+Here is an example of how to include the Bootstrap CSS and JavaScript files
+in your HTML document using the Bootstrap CDN:
 
 ```html
 <!DOCTYPE html>
@@ -67,9 +76,12 @@ your HTML document using the Bootstrap CDN:
 </html>
 ```
 
-In this example, we have linked to the Bootstrap CSS and JavaScript files using
-the Bootstrap CDN. This allows us to use the latest version of Bootstrap in
-our project without having to download and include the files manually.
+## Summary
+
+In this example, we have linked to the Bootstrap CSS and JavaScript files
+using the Bootstrap CDN. This allows us to use the latest version of
+Bootstrap in our project without having to download and include the files
+manually.
 
 ## Instructions
 
