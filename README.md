@@ -29,11 +29,9 @@ by using the instructions below under the heading **Getting Started**.
 To get started with this tutorial, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Read the markdown `.md` file of the corresponding lecture[^1].
-3. Open the `index.html` file in your web browser.
-4. Start exploring the different components and features of Bootstrap 5.
-5. Watch the recorded lecture series with code provided in the `lectures`
-   folder.
+1. Read the markdown `.md` file of the corresponding lecture[^1].
+1. Once having read the `.md` file, go ahead and open the corresponding `index.html` in your web browser.
+1. Watch the recorded lecture series for each individual lecture. 
    
 ## Features
 
