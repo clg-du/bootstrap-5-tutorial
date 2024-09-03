@@ -68,6 +68,10 @@ your HTML document using the Bootstrap CDN:
 </html>
 ```
 
+In this example, we have linked to the Bootstrap CSS and JavaScript files using
+the Bootstrap CDN. This allows us to use the latest version of Bootstrap in
+our project without having to download and include the files manually.
+
 ## Resources
 
 - [VSCode](https://code.visualstudio.com/) (Visual Studio Code)
