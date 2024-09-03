@@ -64,6 +64,10 @@ htmltools::includeHTML("../../index_exercises.html")
 #' </body>
 #' </html>
 #' ```
+#' 
+#' In this example, we have linked to the Bootstrap CSS and JavaScript files using
+#' the Bootstrap CDN. This allows us to use the latest version of Bootstrap in
+#' our project without having to download and include the files manually.
 #'
 #' ## Resources
 #'
