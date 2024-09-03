@@ -2,8 +2,11 @@
 # Tutorial for learning Bootstrap 5
 
 Welcome to the tutorial for learning Bootstrap 5! This repository provides
-step-by-step instructions and examples to help you understand and use Bootstrap
-5. 
+step-by-step instructions and examples to help you understand and use Bootstrap 5.
+
+To get started, browse the lecture index (click to open the dropdown menu) and
+go through the lectures sequentially. You may also clone this repository
+by using the instructions below under the heading **Getting Started**.
 
 <details>
   <summary>
