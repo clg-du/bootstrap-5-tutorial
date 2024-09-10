@@ -115,6 +115,16 @@ htmltools::includeHTML("../../index_lectures.html")
 #' </div>
 #' ```
 #' 
+#' ## Summary
+#' 
+#' Accordions are a versatile and flexible user interface pattern that allows you to
+#' show and hide content in a collapsible manner. Bootstrap provides a set of
+#' classes that you can use to create accordions for your web projects. Accordions
+#' are commonly used to organize and display content in a structured and interactive
+#' way. You can customize the appearance, behavior, and functionality of accordions
+#' using various Bootstrap classes.
+#' 
+#' 
 #' ## Instructions
 #'
 #' 1. Open the "index.html" file in the lecture directory.

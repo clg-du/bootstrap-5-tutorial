@@ -117,6 +117,18 @@ htmltools::includeHTML("../../index_lectures.html")
 #' </div>
 #' ```
 #' 
+#' ## Summary
+#' 
+#' In this lecture, we learned about cards in Bootstrap. Cards are a versatile and
+#' flexible component that can be used to display content in a visually appealing
+#' way. Bootstrap provides a set of card classes that you can use to create
+#' responsive and customizable cards for your web projects. Cards can be used to
+#' showcase products, articles, user profiles, and more. We explored the basic
+#' structure of cards, common card components, card layouts, and card styles. By
+#' using the card classes provided by Bootstrap, you can create visually appealing
+#' and interactive cards for your web projects.
+#' 
+#' 
 #' ## Instructions
 #'
 #' 1. Open the "index.html" file in the lecture directory.
