@@ -25,6 +25,7 @@ by using the instructions below under the heading **Getting Started**.
 - [Lecture 9: Accordions](/lectures/lecture_09/lecture_09.md)
 - [Lecture 10: List Groups](/lectures/lecture_10/lecture_10.md)
 - [Lecture 11: Icons](/lectures/lecture_11/lecture_11.md)
+- [Lecture 12: Tooltips and Popovers](/lectures/lecture_12/lecture_12.md)
 
 </details>
 

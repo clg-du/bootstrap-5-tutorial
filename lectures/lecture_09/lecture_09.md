@@ -1,5 +1,5 @@
 # Lecture 9: Accordions
-2024-09-10
+2024-09-11
 
 <!--html_preserve--><details>
   <summary>Lecture index</summary>
@@ -15,6 +15,7 @@
 - [Lecture 9: Accordions](/lectures/lecture_09/lecture_09.md)
 - [Lecture 10: List Groups](/lectures/lecture_10/lecture_10.md)
 - [Lecture 11: Icons](/lectures/lecture_11/lecture_11.md)
+- [Lecture 12: Tooltips and Popovers](/lectures/lecture_12/lecture_12.md)
 
 </details><!--/html_preserve-->
 
@@ -166,6 +167,7 @@ using various Bootstrap classes.
 - [Lecture 9: Accordions](/lectures/lecture_09/lecture_09.md)
 - [Lecture 10: List Groups](/lectures/lecture_10/lecture_10.md)
 - [Lecture 11: Icons](/lectures/lecture_11/lecture_11.md)
+- [Lecture 12: Tooltips and Popovers](/lectures/lecture_12/lecture_12.md)
 
 </details><!--/html_preserve-->
 
