@@ -11,6 +11,10 @@
 - [Lecture 5: Containers](/lectures/lecture_05/lecture_05.md)
 - [Lecture 6: Grid Layout](/lectures/lecture_06/lecture_06.md)
 - [Lecture 7: Navbars and Forms](/lectures/lecture_07/lecture_07.md)
+- [Lecture 8: Cards](/lectures/lecture_08/lecture_08.md)
+- [Lecture 9: Accordions](/lectures/lecture_09/lecture_09.md)
+- [Lecture 10: List Groups](/lectures/lecture_10/lecture_10.md)
+- [Lecture 11: Icons](/lectures/lecture_11/lecture_11.md)
 
 </details><!--/html_preserve-->
 
@@ -130,6 +134,10 @@ create visually appealing and well-structured content.
 - [Lecture 5: Containers](/lectures/lecture_05/lecture_05.md)
 - [Lecture 6: Grid Layout](/lectures/lecture_06/lecture_06.md)
 - [Lecture 7: Navbars and Forms](/lectures/lecture_07/lecture_07.md)
+- [Lecture 8: Cards](/lectures/lecture_08/lecture_08.md)
+- [Lecture 9: Accordions](/lectures/lecture_09/lecture_09.md)
+- [Lecture 10: List Groups](/lectures/lecture_10/lecture_10.md)
+- [Lecture 11: Icons](/lectures/lecture_11/lecture_11.md)
 
 </details><!--/html_preserve-->
 

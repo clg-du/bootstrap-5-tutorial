@@ -11,6 +11,10 @@
 - [Lecture 5: Containers](/lectures/lecture_05/lecture_05.md)
 - [Lecture 6: Grid Layout](/lectures/lecture_06/lecture_06.md)
 - [Lecture 7: Navbars and Forms](/lectures/lecture_07/lecture_07.md)
+- [Lecture 8: Cards](/lectures/lecture_08/lecture_08.md)
+- [Lecture 9: Accordions](/lectures/lecture_09/lecture_09.md)
+- [Lecture 10: List Groups](/lectures/lecture_10/lecture_10.md)
+- [Lecture 11: Icons](/lectures/lecture_11/lecture_11.md)
 
 </details><!--/html_preserve-->
 
@@ -129,6 +133,18 @@ Here is an example of a card with a blue background and white text:
 </div>
 ```
 
+## Summary
+
+In this lecture, we learned about cards in Bootstrap. Cards are a versatile and
+flexible component that can be used to display content in a visually appealing
+way. Bootstrap provides a set of card classes that you can use to create
+responsive and customizable cards for your web projects. Cards can be used to
+showcase products, articles, user profiles, and more. We explored the basic
+structure of cards, common card components, card layouts, and card styles. By
+using the card classes provided by Bootstrap, you can create visually appealing
+and interactive cards for your web projects.
+
+
 ## Instructions
 
 1. Open the "index.html" file in the lecture directory.
@@ -136,8 +152,7 @@ Here is an example of a card with a blue background and white text:
 
 ## Resources
 
-- [Bootstrap Navbars](https://getbootstrap.com/docs/4.5/components/navbar/)
-- [Bootstrap Forms](https://getbootstrap.com/docs/4.5/components/forms/)
+- [Bootstrap Cards](https://getbootstrap.com/docs/5.1/components/card/)
 
 
 
@@ -151,6 +166,10 @@ Here is an example of a card with a blue background and white text:
 - [Lecture 5: Containers](/lectures/lecture_05/lecture_05.md)
 - [Lecture 6: Grid Layout](/lectures/lecture_06/lecture_06.md)
 - [Lecture 7: Navbars and Forms](/lectures/lecture_07/lecture_07.md)
+- [Lecture 8: Cards](/lectures/lecture_08/lecture_08.md)
+- [Lecture 9: Accordions](/lectures/lecture_09/lecture_09.md)
+- [Lecture 10: List Groups](/lectures/lecture_10/lecture_10.md)
+- [Lecture 11: Icons](/lectures/lecture_11/lecture_11.md)
 
 </details><!--/html_preserve-->
 
