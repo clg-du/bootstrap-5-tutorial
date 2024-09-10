@@ -16,6 +16,7 @@
 - [Lecture 10: List Groups](/lectures/lecture_10/lecture_10.md)
 - [Lecture 11: Icons](/lectures/lecture_11/lecture_11.md)
 - [Lecture 12: Tooltips and Popovers](/lectures/lecture_12/lecture_12.md)
+- [Lecture 13: Modals](/lectures/lecture_13/lecture_13.md)
 
 </details><!--/html_preserve-->
 
@@ -143,6 +144,7 @@ interface more engaging and interactive.
 - [Lecture 10: List Groups](/lectures/lecture_10/lecture_10.md)
 - [Lecture 11: Icons](/lectures/lecture_11/lecture_11.md)
 - [Lecture 12: Tooltips and Popovers](/lectures/lecture_12/lecture_12.md)
+- [Lecture 13: Modals](/lectures/lecture_13/lecture_13.md)
 
 </details><!--/html_preserve-->
 
