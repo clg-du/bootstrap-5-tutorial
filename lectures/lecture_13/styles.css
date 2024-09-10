@@ -1,0 +1,20 @@
+.lecture-header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.lecture-header a {
+    margin: 5px;
+}
+
+.lecture-footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
