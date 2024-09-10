@@ -1,23 +1,34 @@
-#' # Lecture 13: Modals
+#' # Lecture 13: Modals and Offcanvas
 #' `r Sys.Date()`
 #+ echo = FALSE
 htmltools::includeHTML("../../index_lectures.html")
 #'
 #' ## Overview
 #'
-#' In this lecture, we will learn about modals in Bootstrap. Modals are a type
-#' of dialog box that can be used to display content, messages, forms, or other
-#' elements on a web page. Modals are commonly used to provide users with
-#' additional information, gather input, or confirm actions. Modals are designed
-#' to be unobtrusive and can be easily customized to match the style and design
-#' of the website. In Bootstrap, modals can be easily added to a web page using
-#' simple HTML and CSS classes.
+#' In this lecture, we will learn about modals and offcanvas in Bootstrap.
+#' Modals are a type of dialog box that can be used to display content,
+#' messages, forms, or other elements on a web page. Modals are designed to be
+#' unobtrusive and can be easily customized to match the style and design of the
+#' website. Modals are commonly used to provide users with additional
+#' information, gather input, or confirm actions. Modals are typically displayed
+#' as a pop-up box that appears on top of the main content of the page and
+#' requires the user to interact with it before continuing.
 #'
+#' Offcanvas is a type of navigation that slides in from the side of the screen,
+#' providing additional content or navigation options without taking up space on
+#' the main page. Offcanvas navigation is commonly used in responsive web design
+#' to create a more user-friendly experience on mobile devices and smaller
+#' screens. Offcanvas navigation can be triggered by clicking on a button, link,
+#' or other element on the page, and can be easily customized to match the style
+#' and design of the website.
+#' 
 #'
 #' ## Topics Covered
 #'
 #' - Introduction to modals
 #' - Using modals in Bootstrap
+#' - Introduction to offcanvas
+#' - Using offcanvas in Bootstrap
 #'
 #'
 #' ## Introduction to modals
@@ -79,27 +90,101 @@ htmltools::includeHTML("../../index_lectures.html")
 #' section contains the content of the modal, and the footer section contains
 #' buttons for closing or saving changes in the modal.
 #'
+#' ## Introduction to offcanvas
 #'
+#' Offcanvas is a type of navigation that slides in from the side of the screen,
+#' providing additional content or navigation options without taking up space on
+#' the main page. Offcanvas navigation is commonly used in responsive web design
+#' to create a more user-friendly experience on mobile devices and smaller
+#' screens. Offcanvas navigation can be triggered by clicking on a button, link,
+#' or other element on the page, and can be easily customized to match the style
+#' and design of the website.
+#' 
+#' We will explore how to use offcanvas in Bootstrap to create a responsive and
+#' user-friendly navigation experience on a web page.
+#' 
+#' ## Using offcanvas
+#' 
+#' Offcanvas navigation can be easily added to a web page using simple HTML and
+#' CSS classes. In Bootstrap, offcanvas navigation is created using the
+#' `offcanvas` component, which consists of a trigger element and a content
+#' element. The trigger element is used to open and close the offcanvas content,
+#' while the content element contains the additional content or navigation
+#' options that are displayed when the offcanvas is open.
+#' 
+#' To create an offcanvas navigation in Bootstrap, you need to add the following
+#' elements to your HTML code:
+#' 
+#' - A trigger element that opens and closes the offcanvas content. This can be
+#'  a button, link, or other element on the page.
+#' - A content element that contains the additional content or navigation options
+#' that are displayed when the offcanvas is open.
+#' 
+#' The trigger element is linked to the content element using the `data-bs-target`
+#' attribute, which specifies the ID of the content element. When the trigger
+#' element is clicked, the offcanvas content is displayed, and when the trigger
+#' element is clicked again, the offcanvas content is hidden.
+#' 
+#' Offcanvas navigation can be customized using the `offcanvas` class and
+#' additional CSS classes to control the position, size, and appearance of the
+#' offcanvas content. Offcanvas navigation can be positioned on the left or right
+#' side of the screen, and can be styled using custom CSS to match the design of
+#' the website.
+#' 
+#' Here is an example of how to create an offcanvas navigation in Bootstrap:
+#' 
+#' ```html
+#' <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+#'  Toggle offcanvas
+#' </button>
+#' 
+#' <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+#' <div class="offcanvas-header">
+#'  <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+#' <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+#' </div>
+#' <div class="offcanvas-body">
+#' <p>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.</p>
+#' <p>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.</p>
+#' <p>Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.</p>
+#' </div>
+#' </div>
+#' ```
+#' 
+#' In this example, we have a button element that triggers the offcanvas content
+#' when clicked. The button element has the `btn` and `btn-primary` classes to
+#' style the button, and the `data-bs-toggle` and `data-bs-target` attributes to
+#' link the button to the offcanvas content. The offcanvas content is contained
+#' in a `div` element with the `offcanvas` and `offcanvas-start` classes to
+#' position the offcanvas on the left side of the screen. The offcanvas content
+#' has a header with a title and a close button, and a body with placeholder text.
+#' 
+#' You can customize the offcanvas navigation by changing the position, size, and
+#' appearance of the offcanvas content using custom CSS classes and styles. You
+#' can also add additional content, such as images, videos, or forms, to the
+#' offcanvas content to provide users with more information or options.
+#' 
 #' ## Summary
 #'
-#' Modals are a versatile tool that can be used to display content, messages,
-#' forms, or other elements on a web page. Modals are commonly used to provide
-#' users with additional information, gather input, or confirm actions. Modals
-#' are designed to be unobtrusive and can be easily customized to match the
-#' style and design of the website. In Bootstrap, modals can be easily added to
-#' a web page using simple HTML and CSS classes. By customizing modals in
-#' Bootstrap, you can create unique and visually appealing dialog boxes that
-#' enhance the user experience and provide valuable functionality.
+#' Modals and offcanvas are versatile tools that can be used to create a more
+#' user-friendly and responsive navigation experience on a web page. Modals are
+#' a type of dialog box that can be used to display content, messages, forms, or
+#' other elements on a web page, while offcanvas is a type of navigation that
+#' slides in from the side of the screen, providing additional content or
+#' navigation options without taking up space on the main page. Modals and
+#' offcanvas can be easily added to a web page using simple HTML and CSS classes,
+#' and can be customized to match the style and design of the website.
 #'
 #'
 #' ## Instructions
 #'
 #' 1. Open the "index.html" file in the lecture directory.
-#' 1. Explore the examples of modals in Bootstrap.
+#' 1. Explore the examples of modals and offcanvas navigation.
 #'
 #' ## Resources
 #'
 #' - [Bootstrap Modals](https://getbootstrap.com/docs/5.1/components/modal/)
+#' - [Bootstrap Offcanvas](https://getbootstrap.com/docs/5.1/components/offcanvas/)
 #'
 #+ echo = FALSE
 htmltools::includeHTML("../../index_lectures.html")

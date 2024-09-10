@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Bootstrap 5 - the Ultimate eBook</title>
+</head>
+
+<body>
+
+    <!--Lecture 14: Tabs and pills -->
+    <div class="sticky-top lecture-header">
+        <h1>Lecture 14: Tabs and pills</h1>
+        <blockquote class="blockquote">
+            <p class="mb-0">
+                Tabs are used to display multiple sections of content in the same area of a webpage.
+                Pills are similar to tabs, but they are displayed horizontally and are used to navigate between different pages.
+            </p>
+            <!-- Index of Subheaders -->
+            <span>
+                <a href="#part1">Part 1: Using tabs in Bootstrap</a> |
+                <a href="#part2">Part 2: Using pills in Bootstrap</a> |
+            </span>
+        </blockquote>
+    </div>
+
+    <!-- Part 1: Using tabs in Bootstrap -->
+    <div id="part1" class="lecture-header">
+        <h2>Using tabs in Bootstrap</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">
+                Here is an example of a simple tab.
+            </p>
+            <a href="#top">To top of page</a>
+        </blockquote>
+    </div>
+
+    <!-- Part 1: Using tabs in Bootstrap -->
+    <div id="part1" class="lecture-header">
+        <h2>Using tabs in Bootstrap</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">
+                Here is an example of a simple tab.
+            </p>
+            <a href="#top">To top of page</a>
+        </blockquote>
+    </div>
+
+    <!-- Simple tab -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h3>Simple tab</h3>
+                <ul class="nav nav-tabs" id="simpleTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="simpleTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <p>Home tab content</p>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <p>Profile tab content</p>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        <p>Contact tab content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Part 2: Using pills in Bootstrap -->
+    <div id="part2" class="lecture-header">
+        <h2>Using pills in Bootstrap</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">
+                Here is an example of a simple pill.
+            </p>
+            <a href="#top">To top of page</a>
+        </blockquote>
+    </div>
+
+    <!-- Simple pill -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h3>Simple pill</h3>
+                <ul class="nav nav-pills" id="simplePill" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="pill" data-bs-target="#homepill"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="pill" data-bs-target="#profilepill"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="contact-tab" data-bs-toggle="pill" data-bs-target="#contactpill"
+                            type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="simplePillContent">
+                    <div class="tab-pane fade show active" id="homepill" role="tabpanel" aria-labelledby="home-tab">
+                        <p>Home pill content</p>
+                    </div>
+                    <div class="tab-pane fade" id="profilepill" role="tabpanel" aria-labelledby="profile-tab">
+                        <p>Profile pill content</p>
+                    </div>
+                    <div class="tab-pane fade" id="contactpill" role="tabpanel" aria-labelledby="contact-tab">
+                        <p>Contact pill content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+
+    <!-- Pad with some extra spacing -->
+    <span style="display:block; height: 200px;"></span>
+
+    <!-- Footer -->
+    <div class="fixed-bottom lecture-footer">
+        <a href="#top">To top of page</a>
+    </div>
+
+
+
+    <!-- Bootstrap 5 JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>

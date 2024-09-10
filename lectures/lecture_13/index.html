@@ -13,31 +13,27 @@
 
 <body>
 
-    <!--Lecture 13: Modals-->
+    <!--Lecture 13: Modals and Offcanvas-->
     <div class="sticky-top lecture-header">
-        <h1>Lecture 12: Tooltips and Popovers</h1>
+        <h1>Lecture 13: Modals and Offcanvas</h1>
         <blockquote class="blockquote">
             <p class="mb-0">
-                Tooltips and popovers are small, interactive components that can
-                be used to provide additional information about a particular
-                element. In this lecture, we will learn how to create and
-                customize tooltips and popovers in Bootstrap 5.
+                Modals and offcanvas are used to display additional content or to request user input.
             </p>
             <!-- Index of Subheaders -->
             <span>
-                <a href="#part1">Using modals in Bootstrap</a> |
+                <a href="#part1">Part 1: Using modals in Bootstrap</a> |
+                <a href="#part2">Part 2: Using offcanvas in Bootstrap</a>
             </span>
         </blockquote>
     </div>
 
-    <!-- Using modals in Bootstrap -->
+    <!-- Part 1: Using modals in Bootstrap -->
     <div id="part1" class="lecture-header">
         <h2>Using modals in Bootstrap</h2>
         <blockquote class="blockquote">
             <p class="mb-0">
-                Modals are dialog boxes that are overlaid on top of the main
-                content of a page. They are used to display additional content
-                or to request user input. Here is an example of a simple modal.
+                Here is an example of a simple modal.
             </p>
             <a href="#top">To top of page</a>
         </blockquote>
@@ -74,6 +70,43 @@
             </div>
         </div>
     </div>
+
+    <!-- Part 2: Using offcanvas in Bootstrap -->
+    <div id="part2" class="lecture-header">
+        <h2>Using offcanvas in Bootstrap</h2>
+        <blockquote class="blockquote">
+            <p class="mb-0">
+                Here is an example of a simple offcanvas.
+            </p>
+            <a href="#top">To top of page</a>
+        </blockquote>
+    </div>
+
+    <!-- Simple offcanvas -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h3>Simple offcanvas</h3>
+                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#simpleOffcanvas"
+                    aria-controls="simpleOffcanvas">
+                    Open offcanvas
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offcanvas -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="simpleOffcanvas" aria-labelledby="simpleOffcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="simpleOffcanvasLabel">Simple offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>This is a simple offcanvas. You can use it to display additional content or to request user input.</p>
+        </div>
+    </div>
+
+    
 
     <!-- Pad with some extra spacing -->
     <span style="display:block; height: 200px;"></span>
