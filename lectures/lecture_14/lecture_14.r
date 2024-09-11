@@ -13,8 +13,7 @@ htmltools::includeHTML("../../index_lectures.html")
 #' interactive elements on a web page. Pills are similar to tabs, but are
 #' displayed as a horizontal or vertical list of links that can be used to
 #' navigate between different sections of content.
-#'  
-#
+#'
 #' ## Topics Covered
 #'
 #' - Introduction to tabs
